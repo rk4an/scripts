@@ -1,0 +1,22 @@
+Display features on PDF or AdminOrder
+
+/admin/themes/default/template/controllers/orders/_product_line.tpl
+or
+/pdf/invoice.product-tab.tpl
+
+
+{assign var="defaultlang" value=(int)(Configuration::get('PS_LANG_DEFAULT'))}
+{assign var="params" value=Product::getAttributesParams($product.product_id, $product.product_attribute_id)}
+
+{foreach $params as $param}
+	{if $param.id_attribute_group == 4}
+		{if $param.id_attribute == 21}
+			{assign var="features" value=Product::getFrontFeaturesStatic($defaultlang, $product.product_id)}
+			{foreach $features as $feature}			
+			{if $feature.id_feature == 6}
+			{$feature.name}: {$feature.value}
+			{/if}
+			{/foreach}
+		{/if}
+	{/if}
+{/foreach}
