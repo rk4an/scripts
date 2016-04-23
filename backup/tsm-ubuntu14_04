@@ -20,4 +20,4 @@ SErvername server_a
 
 dsmc query session
 
-service dsmc start
+service dsmcad start
