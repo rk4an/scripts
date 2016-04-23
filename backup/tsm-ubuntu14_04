@@ -1,0 +1,23 @@
+mkdir tsm
+cd tsm
+wget ftp://public.dhe.ibm.com/storage/tivoli-storage-management/maintenance/client/v7r1/Linux/LinuxX86_DEB/BA/v714/7.1.4.0-TIV-TSMBAC-LinuxX86_DEB.tar
+tar xvf 7.1.4.0-TIV-TSMBAC-LinuxX86_DEB.tar
+ 
+dpkg -i gskssl64_8.0-50.52.linux.x86_64.deb gskcrypt64_8.0-50.52.linux.x86_64.deb
+dpkg -i tivsm-api64.amd64.deb
+dpkg -i tivsm-ba.amd64.deb
+ 
+cp dsm.sys.smp dsm.sys
+vim dsm.sys
+
+SErvername server_a
+   COMMMethod         TCPip
+   TCPPort            1500
+   TCPServeraddress   SRVTSM
+   Nodename           SRVUBUNTU
+   passwordaccess     generate
+
+
+dsmc query session
+
+service dsmc start
