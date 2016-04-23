@@ -16,7 +16,11 @@ SErvername server_a
    TCPServeraddress   SRVTSM
    Nodename           SRVUBUNTU
    passwordaccess     generate
-
+errorlogname /var/log/dsmerror.log
+schedlogname /var/log/dsmsched.log
+errorlogretention 365,S
+schedlogretention 365,S
+INCLEXCL        /opt/tivoli/tsm/client/ba/bin/dsm.inclexcl
 
 dsmc query session
 
