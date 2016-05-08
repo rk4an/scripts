@@ -1,0 +1,27 @@
+#!/usr/bin/php
+<?php
+
+$warning = 20;
+$critical = 10;
+
+@require_once (__DIR__ . "/OvhApi.php");
+
+$ovh = new OvhApi(OVH_API_EU, "***", "***", "***");
+
+$data = $ovh->call("GET","/sms/sms-***");
+
+if($data->creditsLeft < $critical) {
+   $code = 2;
+   $state = "CRITICAL";
+}
+else if($data->creditsLeft < $warning) {
+   $code = 1;
+   $state = "WARNING";
+}
+else {
+    $code = 0;
+    $state = "OK";
+}
+
+echo "$state - $data->creditsLeft SMS left | sms=$data->creditsLeft";
+exit($code);
