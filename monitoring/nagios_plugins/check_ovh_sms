@@ -23,5 +23,5 @@ else {
     $state = "OK";
 }
 
-echo "$state - $data->creditsLeft SMS left | sms=$data->creditsLeft";
+echo "$state - $data->creditsLeft SMS left | sms=$data->creditsLeft;$warning;$critical";
 exit($code);
