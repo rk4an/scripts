@@ -1,0 +1,8 @@
+diskpart
+list disk
+select disk 0
+list partition
+select partition 6
+delete partition
+select volume 0
+extend
