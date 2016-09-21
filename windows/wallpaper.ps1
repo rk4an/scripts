@@ -1,10 +1,12 @@
+# Get the user SID to change registry key
 $user = Get-WmiObject win32_useraccount -Filter "name = 'Utilisateur'"
 $sid = $user.sid
 Set-Itemproperty -path "Registry::HKEY_USERS\${sid}\Control Panel\Desktop" -name WallPaper -value "C:\Airwatch\wallpaper.jpg"
 
+# Move the picture
 Move-Item C:\Airwatch\Products\Wallpaper\wallpaper.jpg C:\Airwatch\ -Force
 
-
+# Call the Win32 API for change
 Add-Type @"
 using System;
  using System.Runtime.InteropServices;
