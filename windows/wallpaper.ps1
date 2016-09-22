@@ -3,6 +3,10 @@ $user = Get-WmiObject win32_useraccount -Filter "name = 'Utilisateur'"
 $sid = $user.sid
 Set-Itemproperty -path "Registry::HKEY_USERS\${sid}\Control Panel\Desktop" -name WallPaper -value "C:\Airwatch\wallpaper.jpg"
 
+# Stretch (2,0) Center (1,0) Tile (1,1)
+Set-Itemproperty -path "Registry::HKEY_USERS\${sid}\Control Panel\Desktop" -name WallpaperStyle -value "2"
+Set-Itemproperty -path "Registry::HKEY_USERS\${sid}\Control Panel\Desktop" -name TileWallpaper -value "0"
+
 # Move the picture
 Move-Item C:\Airwatch\Products\Wallpaper\wallpaper.jpg C:\Airwatch\ -Force
 
