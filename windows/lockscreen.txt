@@ -1,0 +1,7 @@
+Changing the LockScreen Background: 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000000
+"LockScreenImage"="C:\test.jpg"
+
+From: http://www.tenforums.com/customization/9889-unable-set-lock-screen-background-image-win10-6.html#post769867
