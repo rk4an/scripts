@@ -7,7 +7,7 @@
 
 # Software 
 
-```javascript
+```bash
 XG135_XN02_SFOS 16.05.0 GA# dmesg | head -1
 [    0.000000] Linux version 3.14.22-Aum (root@kar-nsgci-node-01) (gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ) #1 SMP Tue Jan 3 00:12:39 UTC 2017
 ````
