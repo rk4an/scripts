@@ -1,7 +1,7 @@
 # XG 135r2
 
 * Intel(R) Atom(TM) CPU  C2558  @ 2.40GHz
-* 6GB DDR3 (4GB+2GB) 1600 MHz
+* 6GB (4GB+2GB) DDR3 1600 MHz
 * SSD 64 Go Transcend (TS64GSSD370)
 
 
