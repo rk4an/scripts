@@ -1,3 +1,9 @@
+
+# XG 125r2
+
+* Intel(R) Atom(TM) CPU  C2358  @ 1.74GHz
+
+
 # XG 135r2
 
 * Intel(R) Atom(TM) CPU  C2558  @ 2.40GHz
