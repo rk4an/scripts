@@ -1,10 +1,15 @@
+# SG/XG 105r2
 
-# XG 125r2
+* Intel(R) Atom(TM) CPU  E3826  @ 1.46GHz
+* 2GB DDR3 1600 MHz
+* SSD 64 Go Transcend (TS64GSSD370)
+
+# SG/XG 125r2
 
 * Intel(R) Atom(TM) CPU  C2358  @ 1.74GHz
 
 
-# XG 135r2
+# SG/XG 135r2
 
 * Intel(R) Atom(TM) CPU  C2558  @ 2.40GHz
 * 6GB (4GB+2GB) DDR3 1600 MHz
