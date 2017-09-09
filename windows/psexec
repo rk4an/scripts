@@ -1,0 +1,1 @@
+PsExec.exe \\computer-001 -u domain\administrator -sh cmd /c C:\install.exe
