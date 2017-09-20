@@ -1,3 +1,8 @@
+# XG85
+
+* Intel(R) Atom(TM) CPU  E3805  @ 1.33GHz
+* 2GB
+
 # SG/XG 105r2
 
 * Intel(R) Atom(TM) CPU  E3826  @ 1.46GHz
