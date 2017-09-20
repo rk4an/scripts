@@ -1,4 +1,4 @@
-# XG85
+# XG 85
 
 * Intel(R) Atom(TM) CPU  E3805  @ 1.33GHz
 * 2GB
