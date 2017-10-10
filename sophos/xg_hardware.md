@@ -1,3 +1,8 @@
+# ASG 110/120
+
+* Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+* 2GB
+
 # XG 85
 
 * Intel(R) Atom(TM) CPU  E3805  @ 1.33GHz
