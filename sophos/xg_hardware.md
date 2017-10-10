@@ -12,7 +12,7 @@
 # SG/XG 115r2
 
 * Intel(R) Atom(TM) CPU  E3827  @ 1.74GHz
-
+* 4GB 
 
 # SG/XG 125r2
 
