@@ -1,4 +1,4 @@
-# ASG 110/120
+# ASG 120
 
 * Intel(R) Atom(TM) CPU N450   @ 1.66GHz
 * 2GB
