@@ -20,10 +20,6 @@ $code = 0;
 
 for($i=0;$i<count($data);$i++) {
 
-   if($data[$i]['usage']->quota == 0) {
-       $data[$i]['usage']->quota = 0;
-   }
-
    $percent = round($data[$i]['usage']->quota * 100 / $data[$i]['quota']->size);
 
    if($percent > $critical) {
