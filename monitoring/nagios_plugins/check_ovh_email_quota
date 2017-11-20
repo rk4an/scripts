@@ -12,7 +12,7 @@ $list = $ovh->call("GET","/email/domain/$domain/account");
 
 for($i=0;$i<count($list);$i++) {
 
-   $data[$i]['quota'] = $ovh->call("GET","/email/domain/$domain/account/".$list[$i]."");
+   $data[$i]['quota'] = $ovh->call("GET","/email/domain/$domain/account/".$list[$i]);
    $data[$i]['usage'] = $ovh->call("GET","/email/domain/$domain/account/".$list[$i]."/usage");
 }
 
