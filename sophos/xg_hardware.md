@@ -33,6 +33,12 @@
 * SSD 64 Go Transcend (TS64GSSD370)
 
 
+# SG/XG 310r2
+
+* Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+* 12GB DDR3
+
+
 # Software XG
 
 * XG 16.05.0
