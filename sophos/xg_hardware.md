@@ -38,6 +38,10 @@
 * Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
 * 12GB DDR3
 
+# SG/XG 430r2
+
+* Intel(R) Xeon(R) CPU E3-1225 v5 @ 3.30GHz
+* 16GB DDR3
 
 # Software XG
 
