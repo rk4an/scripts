@@ -38,15 +38,11 @@
 * Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
 * 12GB DDR3
 
+# SG/XG 330r2
+
+* Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+
 # SG/XG 430r2
 
 * Intel(R) Xeon(R) CPU E3-1225 v5 @ 3.30GHz
 * 16GB DDR3
-
-# Software XG
-
-* XG 16.05.0
-
-```bash
-[    0.000000] Linux version 3.14.22-Aum (root@kar-nsgci-node-01) (gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ) #1 SMP Tue Jan 3 00:12:39 UTC 2017
-````
